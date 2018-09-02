@@ -10,9 +10,9 @@ Stack | Version |
 `vue-router` | 3.0.1 |
 `vuex` | 3.0.1 |
 `iview` | 3.0.0 |
+`less` | 3.8.0 |
 `axios` | 0.18 |
 `webpack` | 3.6.0 |
-
 
 
 ---

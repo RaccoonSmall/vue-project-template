@@ -1,6 +1,6 @@
 <template>
     <main>
-        Hello Login
+        <Button type="primary" @click="login">Login</Button>
     </main>
 </template>
 
@@ -15,7 +15,15 @@ export default {
     mounted() {
     },
     methods:{
+        login() {
+            this.$router.push('/page1');
+        }
     },
 }
 </script>
 
+<style lang="less" scoped>
+    main{
+        padding: 30px;
+    }
+</style>
